@@ -7,6 +7,17 @@ public class Goods {
 	private String name;
 	private int price;
 	
+	
+	public Goods(String name, int price) {
+		this.name = name;
+		this.price = price;
+		
+	}
+	
+	
+	
+	/*
+	
 	//생성자
 	//메소드 - 겟터/새터
 	
@@ -33,7 +44,7 @@ public class Goods {
 	public int getPrice() {
 		return price;
 	}
-	
+	*/
 	
 	public void showInfo() {
 		System.out.println("상품이름: " + name + ",  가격: " + price);

@@ -7,7 +7,7 @@ public class GoodsApp {
 		// 
 
 		
-		Goods camera = new Goods();
+		Goods camera = new Goods("니콘", 40000);
 		
 		//캡슐화 때문에 사용 불가
 		/*
@@ -19,11 +19,12 @@ public class GoodsApp {
 		System.out.println(camera.price);
 		*/
 		
-		camera.setName("니콘");
+		//camera.setName("니콘");
 		//String name = camera.getName();
 		//System.out.println(name);		
 
-		camera.setPrice(400000);
+		//camera.setPrice(400000);
+		
 		camera.showInfo();
 		
 		/*
