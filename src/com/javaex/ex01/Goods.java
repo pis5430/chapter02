@@ -36,4 +36,8 @@ public class Goods {
 	}
 	
 	
+	public void showInfo() {
+		System.out.println("상품이름: " + name + ",  가격: " + price);
+	}
+	
 }

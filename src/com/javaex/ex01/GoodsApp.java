@@ -21,15 +21,11 @@ public class GoodsApp {
 		
 		camera.setName("니콘");
 		//String name = camera.getName();
-		//System.out.println(name);
-		
-		System.out.println();
-		
-		
-		camera.setPrice(400000);
-		int price = camera.getPrice();
-		System.out.println(price);
+		//System.out.println(name);		
 
+		camera.setPrice(400000);
+		camera.showInfo();
+		
 		/*
 		
 		Goods computer = new Goods();
