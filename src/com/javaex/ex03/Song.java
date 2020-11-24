@@ -9,6 +9,24 @@ public class Song {
 	private int year; 
 	private int track;
 	
+	
+	//생성자
+	//메소드와 유사하다, 이름은 클래스명 , 리턴형이 없다
+	public Song() {
+		//메모리에 올린다
+	}
+	
+	public Song(String title, String artist, String album, String composer, int year, int track) {
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.composer = composer;
+		this.year = year;
+		this.track = track;
+		
+		//메모리에 올린다.
+	}
+	
 	//title
 	
 	public void setTitle(String title) {
