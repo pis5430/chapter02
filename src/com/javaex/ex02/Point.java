@@ -10,8 +10,8 @@ public class Point {
 	
 	//x setter
 	
-	public void setterX(int xx) {
-		x = xx;
+	public void setterX(int x) {
+		this.x = x;
 	}
 	
 	//x getter
@@ -23,8 +23,8 @@ public class Point {
 	
 	//y setter
 	
-	public void setterY(int yy) {
-		y = yy;
+	public void setterY(int y) {
+		this.y = y;
 	}
 	
 	//x getter
