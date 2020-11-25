@@ -113,6 +113,7 @@ public class TV {
 	//void status() 메소드 구현( TV 정보 출력) 
 	
 	public void status(){
+		
 		System.out.println("tv전원 :" + power +"  볼륨 :" + volume+ "  채널 :" + channel );
 	}
 
