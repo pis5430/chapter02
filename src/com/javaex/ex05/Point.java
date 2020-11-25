@@ -16,6 +16,10 @@ public class Point {
 	public Point(int x) {
 		this.x=x;
 	}
+	
+	//public Point(int y) { //자료형으로 구분하기 때문에 위에 x변수랑 중복되서 오류남
+	//	this.y=y;
+	//}
 
 	public int getX() {
 		return x;
@@ -33,9 +37,10 @@ public class Point {
 		this.y = y;
 	}
 	
-	public void drow() {
+	public void draw() {
 		System.out.println("점[x="+ x + ", y="+y+"]을 그렸습니다.");	
 	}
+
 	
 
 }

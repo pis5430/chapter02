@@ -7,14 +7,14 @@ public class PointApp {
 		Point p1 = new Point();
 		p1.setX(5);
 		p1.setY(22);
-		p1.drow();
+		p1.draw();
 		
 		Point p2 = new Point(77,5);
-		p2.drow();
+		p2.draw();
 		
 		Point p3 = new Point(6);
 		p3.setY(38);
-		p3.drow();		
+		p3.draw();		
 
 	}
 
