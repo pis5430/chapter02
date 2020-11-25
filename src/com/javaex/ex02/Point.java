@@ -9,15 +9,15 @@ public class Point {
 	
 	
 	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
+		this.x= x;
+		this.y= y;
+		
 	}
 	
 	
-	
-	/*
 	//x setter
 	
+
 	public void setterX(int x) {
 		this.x = x;
 	}
@@ -40,7 +40,7 @@ public class Point {
 	public int getterY() {
 		return y;
 	}
-	 */
+	
 	
 	
 	public void drow() {

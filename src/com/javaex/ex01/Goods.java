@@ -7,8 +7,15 @@ public class Goods {
 	private String name;
 	private int price;
 	
+	//public 클래스명 (자료형 변수,자료형 변수) {} -->없으면 자동으로 만들어줌(기본생성자)
+	//생성자 --> 클래스를 메모리에 올린다
 	
-	public Goods(String name, int price) {
+	public Goods() { // 기본값
+		
+	}
+	
+	
+	public Goods(String name, int price) { // 메모리에서 뒤에 자료형,변수로 구분함
 		this.name = name;
 		this.price = price;
 		
