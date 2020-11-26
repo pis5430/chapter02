@@ -32,7 +32,7 @@ public class Goods {
 	}
 
 	public int getPrice() {
-		return price;
+		return price; //this.price로 해도 되지만 헷갈릴게 없어서 생략가능
 	}
 
 	public void setPrice(int price) {
@@ -43,6 +43,11 @@ public class Goods {
 	
 	public void showInfo() {
 		System.out.println("상품명: "+name + ", 가격: " + price);
+	}
+
+	@Override
+	public String toString() {
+		return "Goods [name=" + name + ", price=" + price + "]";
 	}
 
 }

@@ -7,19 +7,24 @@ public class Math {
 	
 	//필드 --> 생략가능, 코드작성안함
 	//생성자
-	//public Math(){}
+	public Math() {} //생략가능
 	
-	public int plus(int a, int b) {
+	//메소드 - getter , setter 생략
+	
+	//메소드 - 일반
+	
+	public static int plus(int a, int b) {
 		
-		int sum = a+b;
+		int sum = a+b; //복잡한 로직이라고 가정
 		return sum;
 	}
 	
-	public double plus(double a,double b) {
+	public static double plus(double a,double b) {
 		
 		double sum = a+b;
 		return sum;
 	}
+	
 	
 
 }

@@ -9,8 +9,7 @@ public class TVApp {
 		TV tv = new TV(256,120,false); //
 
 		// 기본값↑
-        tv.volume( 120 );
-        tv.channel( 256);
+
 		tv.status();
 
         

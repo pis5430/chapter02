@@ -12,6 +12,7 @@ public class GoodsApp {
 		camera.setName("니콘"); 
 		camera.setPrice(400000); 
 		camera.showInfo();
+		System.out.println(camera.toString());
 		
 		//생성자 Goods(String name, int price)사용
 		//setter사용 x
