@@ -21,7 +21,7 @@ public class GoodsApp {
 		goodsArray[2] = cup;
 		
 		System.out.println(camera.getName());
-		System.out.println(goodsArray[0].getName());	
+		//System.out.println(goodsArray[0].getName());	
 		
 		for(int i=0; i<goodsArray.length; i++) {
 //			System.out.print(goodsArray[i].getName());
