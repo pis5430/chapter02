@@ -10,13 +10,14 @@ public class Point {
 	//생성자
 	
 	public Point() {
-		super();
+		System.out.println("Point(0)");
 	}
 	
 	public Point(int x, int y) {
 		super();
 		this.x = x;
 		this.y = y;
+		System.out.println("Point(2)");
 	}
 	
 	//메소드 getter,setter
