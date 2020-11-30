@@ -20,7 +20,6 @@ public class PersonApp {
 		Student p04 = new Student("경기고등학교");
 		System.out.println(p04.toString());
 		
-		.p04.
 		
 		
 		
