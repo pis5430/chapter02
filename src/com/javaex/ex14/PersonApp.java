@@ -13,13 +13,16 @@ public class PersonApp {
 		Student p02 = new Student("서울고등학교");
 		System.out.println(p02.toString());
 		*/
-		
+		/*
 		Person p03 = new Person("박명수", 55);
 		System.out.println(p03.toString());
-		
-		Student p04 = new Student("경기고등학교");
+		*/
+		/*
+		Student p04 = new Student("이효리" , 44 ,"제주고등학교");
 		System.out.println(p04.toString());
-		
+		*/
+		Student p05 = new Student("이효리", 44 ,"제주고등학교");
+		p05.showInfo();
 		
 		
 		
