@@ -1,6 +1,6 @@
 package com.javaex.ex14;
 
-public class Student {
+public class Student extends Person{
 	
 	//필드
 	
