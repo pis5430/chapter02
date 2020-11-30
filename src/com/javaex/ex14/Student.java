@@ -14,7 +14,7 @@ public class Student extends Person{
 		
 	}
 	
-	public Student(String schollName) {
+	public Student(String schoolName) {
 		//Person(); -->super(); 부모쪽 디폴트 생성자 실행
 		super();
 		this.schoolName = schoolName;
