@@ -48,6 +48,16 @@ public class PersonApp {
 		}
 		
 		
+		//캐스팅 테스트
+		
+		Person t01 = psArray[4];
+		//Student t02 = psArray[4];  오류:  양쪽 자료형이 다름
+		Student t03 = (Student)psArray[4]; //다운캐스팅
+		
+		Person t04 = (Student)psArray[4]; 
+		// 자식 클래스가 부모클래스 타입으로 변환되는것
+		// 자동으로 업캐스팅 된다 
+		
 	}
 
 }
