@@ -1,6 +1,6 @@
 package com.javaex.ex20;
 
-public class Triangle extends Shape{
+public class Tringle extends Shape{
 	
 	
 	//필드
@@ -9,11 +9,11 @@ public class Triangle extends Shape{
 
 	
 	//생성자
-	public Triangle() {
+	public Tringle() {
 		super();
 	}
 
-	public Triangle(String fillColor, String lineColor, int width, int height) {
+	public Tringle(String fillColor, String lineColor, int width, int height) {
 		super(fillColor, lineColor);
 		this.width = width;
 		this.height = height;
@@ -44,6 +44,11 @@ public class Triangle extends Shape{
 	public void draw() {
 		System.out.println("삼각형 - 면색:" + super.getFillColor() + "  선색:" + super.getLineColor()+ "  가로:" + width + "  세로:" + height );
 	}
+	
+	public double area() {
+		return 1/2*width*height;
+	}
+	
 	
 	@Override
 	public String toString() {

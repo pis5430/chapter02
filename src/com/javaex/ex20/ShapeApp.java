@@ -12,7 +12,7 @@ public class ShapeApp {
 		Circle c01 = new Circle("초록","파랑",100);
 		c01.draw();
 		
-		Triangle t01 = new Triangle("노랑","핑크",50,30);
+		Tringle t01 = new Tringle("노랑","핑크",50,30);
 		t01.draw();
 		
 		//문제발생 (문법상으로는 맞지만 개념적으로는 되면안되는)
@@ -25,7 +25,7 @@ public class ShapeApp {
 		
 		Shape sr01 = new Ractangle("빨강","연두",50,22);
 		Shape sc01 = new Circle("초록","파랑",100);
-		Shape st01 = new Triangle("노랑","핑크",50,30);
+		Shape st01 = new Tringle("노랑","핑크",50,30);
 		
 		sArray[0] = sr01; 
 		sArray[1] = sc01; 
