@@ -17,8 +17,8 @@ public class ShapeApp {
 		
 		//문제발생 (문법상으로는 맞지만 개념적으로는 되면안되는)
 		//추상클래스 --> 부모클래스에 abstract 추가
-		Shape s01 = new Shape("하늘","연두");
-		s01.draw();
+		//Shape s01 = new Shape("하늘","연두");
+		//s01.draw();
 		
 		
 		Shape[] sArray = new Shape[3];
