@@ -1,6 +1,6 @@
-package com.javaex.ex21;
+package com.javaex.ex22;
 
-public class Tringle extends Shape  {
+public class Tringle extends Shape implements Drawable {
 	
 		
 		//필드
